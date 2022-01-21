@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="color-scheme" content="light dark">
+	<meta name="supported-color-schemes" content="light dark">
+    <title></title>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+	
+	
+<!-- This template is designed to be used with the Luminate stationary template called CMOA/CMP - CSS Template. 
+     That template will hide the preheader text when emailed.
+     email Susan Geyer at geyers@carnegiemuseums.org for questions. -->
+	
+	
+<style>
+				 
+:root {
+color-scheme: light dark;
+supported-color-schemes: light dark;
+}
+	
+	
+/* Basics */
+body {
+    margin: 0 !important;
+    padding: 0;
+    background: #f9eae9;
+}
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+	border-width:0;
+	height:auto;
+	margin:0
+}
+div[style*="margin: 16px 0"] { 
+    margin:0 !important;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.webkit {
+    max-width: 600px;
+    margin: 0 auto;
+}
+	
+/* Outside container size */
+.outer {
+Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.inner {
+padding: 10px;
+}
+
+	
+p {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1.1em;
+	line-height:1.25em;
+	color:#333333;
+    margin: 0;
+	margin-top: .5em;
+	margin-bottom: 1em;
+	font-weight: normal;
+}
+	
+/* the following are 'p' tag classes */
+.unsub {font-size: .9em;}
+.smalltext {font-size: .9em;
+        color: #636363;}
+.credit {font-size: .75em;
+		color: #636363;}
+
+li {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1.1em;
+	line-height:1.25em;
+	color:#333333;
+    margin: 0;
+	margin-top: 0;
+	margin-bottom:0;
+	font-weight: normal;
+}
+cite {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: inherit;
+	line-height:inherit;
+	color:inherit;
+    margin: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+	font-weight: inherit;
+}
+	
+a {
+    font-family: 'Open Sans', Arial, sans-serif;
+	color: #C11A2B !important;
+    text-decoration: underline;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	-webkit-text-size-adjust:none;
+}
+h1 {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1.5em;
+	line-height: 1.2em;
+	color:#333333;
+    margin: 0;
+	margin-top:.5em;
+	margin-bottom:.75em;
+	font-weight: bold;
+    text-align:center;
+}
+h2 {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+	line-height:1.2em;
+	color:#333333;
+    margin: 0;
+	margin-top: .5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+.list {					/* this text is the smaller h2 for Rangos Now Showing title */
+	color: #666666;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+	line-height:1.2em;
+	color:#333333;
+    margin: 0;
+	margin-top: .5em;
+	margin-bottom:.5em;
+	font-weight: bold;
+}
+
+
+	
+/* assign class for a colored background - remember to change in dark mode */
+.color1 tr {background: #C8E3EF;}
+.color1 td { background: #C8E3EF;}
+.color2 tr {background: #dddddd;}
+.color2 td { background: #dddddd;}		
+
+	
+ 
+/* One column layout */
+.one-column .contents {
+    text-align: left;
+}
+
+/* One column subhead layout - text in a black bar under the top image */
+.subhead .contents {
+    text-align: center;
+}
+.subhead  table {
+    background-color: #b61765;
+}
+.subhead  h1 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff !important;
+	letter-spacing: 2px;
+	margin-top:.25em;
+	margin-bottom:.25em;
+	text-transform: uppercase;
+}
+.subhead  p {
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff !important;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: .25em; 
+	margin-bottom: .25em;
+}
+
+/* One column extra subhead for the corporate member email only */
+.corporate table {background-color: #000000;
+	}	
+.corporate h1 {	
+	font-size: 1.1em;
+	font-weight: normal; 
+	text-transform: uppercase;
+	margin-top: .5em; 
+	margin-bottom: .5em;
+}
+.corporate p {
+    color: #ffffff !important;   
+    }	
+
+	
+
+/* One column Title layout */
+.title .contents {
+    text-align: center;
+}
+.title p {
+	font-size: 1.15em;
+	color: #666666;
+	margin-top:.25em;
+	margin-bottom:.25em;
+	text-transform: uppercase;
+}
+	
+
+    
+/* One column Logo layout */
+.logo .contents {
+    text-align: center;
+}
+.logo p {
+	font-size: 1.05em;
+    font-family: Gotham, 'Open Sans', Arial, sans-serif;
+	color: #000000;
+	text-transform: uppercase;
+}
+	
+    
+	
+
+/*Two column layout*/
+.two-column {
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+	
+.two-column .column {
+	width: 100%;
+    max-width: 295px;
+    display: inline-block;
+    vertical-align: top;
+}	
+.contents {
+	width: 100%;
+}
+.two-column .contents {
+    text-align: left;
+}
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+	
+	
+/*Three column layout*/
+.three-column {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.three-column .column {
+    width: 100%;
+    max-width: 195px;
+    display: inline-block;
+    vertical-align: top;
+}
+.three-column .contents {
+    text-align: left;
+}
+.three-column img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+.three-column p {
+    font-size: .9em;
+}
+.three-column h2 {
+    font-size: 1em;
+	margin-top: .5em;
+}
+.three-column h3 {
+    font-size: 1em;
+	margin-top: .5em;
+}
+	
+
+	
+	
+/* Left sidebar layout */
+.left-sidebar {
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+.left-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left-sidebar .left {
+    max-width: 195px;
+}
+.left-sidebar .right {
+    max-width: 395px;
+}
+.left-sidebar img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+	
+	
+/* Right sidebar layout */
+.right-sidebar {
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+.right-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.right-sidebar .left {
+    max-width: 395px;
+}
+.right-sidebar .right {
+    max-width: 195px;
+}
+.right-sidebar img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+.RAD img {
+	width: 80%;
+    max-width: 150px;
+    height: auto;
+}	
+
+
+    
+    
+/*standard button - remember to edit color for dark mode*/	
+.story {
+	border: 0; 
+	cellpadding: 0; 
+	cellspacing: 0;
+}
+.story .container {
+	background-color: #ffffff; 
+	padding-left:50px; 
+	padding-right:50px;
+    padding-top:30px; 
+	padding-bottom:40px;
+}
+    
+    
+    
+/*standard button - remember to edit color for dark mode*/	
+.button {
+	border: 0; 
+	cellpadding: 0; 
+	cellspacing: 0;
+}
+.button .label {
+	width: auto;
+	align: center; 
+	valign: middle;
+	height: 50px;  /* .button .label a - line-height should match this number*/
+	background-color: #DB7500; 
+	background-clip: padding-box; 
+	font-size:1.2em; 
+	font-family: 'Open Sans', Arial, sans-serif; 
+	text-align:center; 
+	color:#ffffff; 
+	padding-left:20px; 
+	padding-right:20px;
+	border-radius: 5px;
+	box-shadow:0 2px 2px 0 rgba(48,55,59,0.25);
+}
+.button .label a {
+	color: #ffffff !important; 
+	text-align:center; 
+	text-transform: uppercase; 
+	text-decoration: none;
+	display: block;
+    line-height:50px;
+}
+
+
+
+	
+	
+/*This button changes color with cursor hover - remember to edit colors for dark mode*/	
+.rollover-button {
+	border: 0; 
+	cellpadding: 0; 
+	cellspacing: 0;
+}
+.rollover-button .label {
+	width: auto;
+	align: center; 
+	valign: middle;
+	height: 50px;  /* .rollover-button .label a - line-height should match this number*/
+	background-color: #E80266; 
+	background-clip: padding-box; 
+	font-size:1.1em; 
+	font-family: 'Open Sans', Arial, sans-serif; 
+	text-align:center; 
+	color:#ffffff; 
+	padding-left:20px; 
+	padding-right:20px;
+	border-radius: 5px;
+	box-shadow:0 2px 2px 0 rgba(48,55,59,0.25);
+}
+.rollover-button .label a {
+	color: #ffffff !important; 
+	text-align:center; 
+	text-transform: uppercase; 
+	text-decoration: none;
+	display: block;
+    line-height:50px;
+}
+
+.rollover-button:hover .label {
+	background-color: #B60250 !important; 
+	}
+		
+	
+	
+	
+	
+	
+.footer tr {
+	background-color: #4A4A4A;
+	}
+.footer td {
+	background-color: #4A4A4A;
+	}
+	
+
+    
+    
+/* Video in email - START - from email on acid - Nov. 2020 */    
+ .video-wrapper {display:none;}
+ @media (-webkit-min-device-pixel-ratio: 0) and (min-device-width:1024px) 
+ {
+  .video-wrapper { display:block!important; }
+  .video-fallback { display:none!important; }
+ }
+  @supports (-webkit-overflow-scrolling:touch) and (color:#ffffffff) {
+    div[class^=video-wrapper] { display:block!important; }
+    div[class^=video-fallback] { display:none!important; }
+  }
+  #MessageViewBody .video-wrapper { display:block!important; }
+  #MessageViewBody .video-fallback { display:none!important; }
+/* Video in email - END */    
+    
+    
+    
+    
+	
+
+.appleLinksWhite a {
+	color: #ffffff !important; 
+	text-decoration: none;
+        font-weight: inherit;
+} 
+.appleLinksBlack a {
+	color: #000000 !important; 
+	text-decoration: none;
+        font-weight: inherit;
+}
+
+	
+	
+	
+/* Mobile settings */	
+@media only screen and (max-width:400px) {
+	
+.one-column {max-width: 100% !important;}
+.two-column .column {max-width: 100% !important;}
+.three-column .column {max-width: 100% !important;}
+.left-sidebar .column {max-width: 100% !important;}
+.right-sidebar .column {max-width: 100% !important;}
+img {max-width: 100% !important;}
+.RAD img {
+	width: 50%;
+	max-width: 150px;}
+
+p {font-size: 1.2em;}
+li {font-size: 1.2em;}
+.unsub {font-size: 1em;}
+.smalltext {font-size: 1.1em;}
+.credit {font-size: .85em;}
+h1 {font-size: 1.75em;}
+h2 {font-size: 1.35em;}
+h3 {font-size: 1.2em;}
+.three-column p {font-size: 1.2em;}
+.three-column h2 {font-size: 1.35em;}
+.three-column h3 {font-size: 1.2em;}
+.story .container {
+	padding-left:30px; 
+	padding-right:30px;
+    padding-top:30px; 
+	padding-bottom:30px;
+}
+
+.title p {font-size: 1.35em;}
+
+.outer {width: 95%;}  /* Narrower container width for mobile */
+.button .label {
+	height: 60px;
+	font-size:1.3em; 
+	padding-left:30px; 
+	padding-right:30px;
+}
+.rollover-button .label {
+	height: 60px;
+	font-size:1.3em; 
+	padding-left:30px; 
+	padding-right:30px;
+}	
+}
+	
+	
+	
+/* dark mode settings */
+@media screen and (prefers-color-scheme: dark) {
+body {
+    background-color: #000000 !important;
+    color: white;
+  }
+img {
+    opacity: .85;
+    transition: opacity .5s ease-in-out;
+  }
+	
+td {border-top-color:#333333 !important;}
+a {color: #E2283A !important;}
+p {color:#cccccc;}
+li {color:#cccccc;}
+.credit {color: #aaaaaa;}
+.smalltext {color: #aaaaaa;}
+h1 {color:#cccccc;}
+h2 {color:#cccccc;}
+h3 {color:#cccccc;}
+img:hover {opacity: 1;}
+table {background-color: #000000;}
+ 
+.logo p {color: #ffffff;}
+.story h1 {color:#dedede;}
+.story .container {background-color: #2E2E2E;}
+    
+.title p {color: #cccccc;}
+.list {color: #cccccc;} 
+
+.appleLinksWhite a {color: #000000 !important;} 
+.appleLinksBlack a {color: #cccccc !important;}
+		
+.lightimage {display: none !important;}
+.darkimageWrapper,
+.darkimage {display: block !important;}
+
+.color1 tr {background: #256BAD;}
+.color1 td { background: #256BAD;}
+.color2 tr {background: #313130;}
+.color2 td { background: #313130;}
+	
+.corporate table {background-color: #1C1C1C;}
+.corporate h1 {color: #cccccc;}
+
+.footer tr {background-color: #303030;}
+.footer td {background-color: #303030;}
+
+.button .label {background-color: #DE1B7A;}
+.rollover-button .label {background-color: #E80266;}
+.rollover-button:hover .label {background-color: #B60250 !important;}
+
+}
+	
+	
+
+</style>
+</head>
+	
+<body lang="en" style="background: #f9eae9;">
+<center class="wrapper">
+<div class="webkit" style="font-size:16px; font-size:1rem; font-size:max(16px, 1rem)">
+<!--[if (gte mso 9)|(IE)]>
+<table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0" 
+style="margin:0 !important;padding:0;border-spacing:0;border-width:0;cellpadding:0;cellspacing:0;">
+<tr>
+<td>
+<![endif]-->
+<table role="presentation" class="outer" align="center">
+<!-- START BELOW THIS -->
+	
+	
+
+    
+    
+		
+
+<!-- FULL WIDTH IMAGE START -->	
+<tr>
+	<td>
+		<table role="presentation" align="center" >
+		<!-- class="outer" removed from the above table tag to make image full width on mobile -->
+    		<tr>
+        	<td class="full-width-image">
+     <img src="https://carnegiemuseums.org/Carnegie2/2021/Stores/graphics/CMPStores.png" width="600" alt="Carnegie Museums of Pittsburgh Stores" style="display: block;" />
+        	</td>
+    		</tr>
+		</table>
+	</td>
+</tr>
+<!-- FULL WIDTH IMAGE END -->	
+	
+	
+
+<!-- FULL WIDTH IMAGE START -->	
+<tr>
+	<td>
+		<table role="presentation" align="center" >
+		<!-- class="outer" removed from the above table tag to make image full width on mobile -->
+    		<tr>
+        	<td class="full-width-image">
+                
+         <a href="https://stores.carnegiemuseums.org/valentines-day-gifts/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=topimage"><img src="https://carnegiemuseums.org/Carnegie2/2022/Stores/01/StoresImage-email2.jpg" width="600" alt="" style="display: block;" /></a>
+                
+        	</td>
+    		</tr>
+		</table>
+	</td>
+</tr>
+<!-- FULL WIDTH IMAGE END -->	
+
+	
+    
+    
+    
+ <!-- SINGLE COLUMN OF TEXT START -->	
+<tr>
+<td class="one-column">
+	<table role="presentation" class="story" width="100%">
+		<tr>
+		<td class="inner contents container" style="background-color: #ffffff;">
+				
+		
+        <h1 align="center">We're more than roses and&nbsp;candy!</h1>
+            
+         <p>Celebrate love and friendship this Valentine's Day (and Galentine's Day!) with creative gifts from the museums you love.
+Show some love to your heartthrob, #1 friend, and even yourself. Shop Valentine's Day Gifts now!</p>
+            
+       <p style="margin-bottom: 1.5em;">
+           <span class="appleLinksBlack"><b>Order by February 2 for delivery by February 14.</b></span></p>
+           
+       
+            
+		<!-- Rollover Button START -->
+		<table role="presentation" class="rollover-button" align="center"><tr><td class="label">
+			<a href="https://stores.carnegiemuseums.org/valentines-day-gifts/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=button">
+			<span class="appleLinksWhite">
+
+				Shop&nbsp;Now</span></a>
+		</td></tr></table>
+		<!-- Roolover Button END -->
+			
+            
+     <br />
+            
+		</td>
+		</tr>
+	</table>
+</td>
+</tr>
+<!-- SINGLE COLUMN OF TEXT END -->	
+    
+    
+
+
+	
+
+    
+<!-- FOOTER START -->
+<!-- SINGLE COLUMN OF TEXT START -->	
+<tr>
+<td class="one-column">
+	<table role="presentation" width="100%">
+		<tr>
+		<td class="inner contents">
+		
+        
+       <p align="center" style="margin-bottom: 0;">
+    <a href="https://carnegiemuseums.org/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=cmp-logo"><img class="lightimage" src="https://carnegiemuseums.org/Carnegie2/2021/Misc/graphics/CMPbw-light.png" width="350"  alt="Carnegie Museums of Pittsburgh" style="display: block;" /><div class="darkimageWrapper" style="mso-hide: all; display: none"><img src="https://carnegiemuseums.org/Carnegie2/2021/Misc/graphics/CMPcolor-dark2.png" width="350" class="darkimage" alt="Carnegie Museums of Pittsburgh" style="display: block;" /></div></a></p>
+                
+            
+                  
+         
+    <p align="center" class="smalltext" style="margin-top: .5em;">
+    <a href="https://carnegiemuseums.org/plan-a-visit/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=visit-footer" style="color:#757575 !important"><span style="color:#757575"><b>Visit</b></span></a>
+    &nbsp; | &nbsp;<a href="https://carnegiemuseums.org/join-support/membership/joinrenew/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=renew-footer" style="color:#757575 !important"><span style="color:#757575"><b>Membership</b></span></a>
+    &nbsp; | &nbsp;
+    <a href="https://carnegiemuseums.org/join-support/donate/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=support-footer" style="color:#757575 !important"><span style="color:#757575"><b>Support</b></span></a>
+    &nbsp; | &nbsp;
+    <a href="https://stores.carnegiemuseums.org?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=shop-footer" style="color:#757575 !important"><span style="color:#757575"><b>Shop</b></span></a></p>
+              
+        
+           
+            
+		</td>
+		</tr>
+	</table>
+</td>
+</tr>
+<!-- SINGLE COLUMN OF TEXT END -->	
+    
+
+    
+    
+
+	   
+<!-- SINGLE COLUMN OF TEXT START - Highlights -->	
+<tr>
+<td class="one-column" style="border-top-width:2px;border-top-style:solid;border-top-color:#dddddd;">
+	<table role="presentation" width="100%">
+		<tr>
+		<td class="inner contents">
+				
+
+            
+          
+         <p  class="smalltext" align="center" style="margin-top: .5em; margin-bottom: 0;"><strong>Come visit!</strong>
+		  Reserve your <a href="https://carnegiemuseums.org/timed-tickets/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=timedtickets" style="color:#757575 !important"><span style="color:#757575"> timed tickets</a> now!</span> </p>
+            
+        <p  class="smalltext" align="center" style="margin-top: .5em;">
+Learn more about <a href="https://carnegiemuseums.org/welcome-back/?utm_source=luminate&utm_medium=email&utm_campaign=store-NONmembers-january&utm_content=safety" style="color:#757575 !important"><span style="color:#757575">upcoming changes to our COVID-19 safety protocols.</span></a></p>
+            
+          
+          <p class="smalltext" align="center" style="margin-bottom: .5em; margin-top: .5em;"><strong>Accessibility: Features For All</strong><br />
+           Carnegie Museums of Pittsburgh welcomes all visitors. We work to assist visitors with disabilities in obtaining reasonable and appropriate accommodations, and in supporting equal access to services, programs, and activities. <a href="https://carnegiemuseums.org/accessibility/" style="color:#757575 !important"><span style="color:#757575">Learn&nbsp;More.</span></a> </p>
+      
+
+					
+		</td>
+		</tr>
+	</table>
+</td>
+</tr>
+<!-- SINGLE COLUMN OF TEXT END -->	
+    
+    
+
+    
+<!-- SINGLE COLUMN OF TEXT START -->	
+<tr>
+<td class="one-column" style="border-top-width:2px;border-top-style:solid;border-top-color:#dddddd;">
+	<table role="presentation" width="100%">
+		<tr>
+		<td class="inner contents">
+      
+            
+     <p class="credit" align="center" style="margin-top: .5em;"><span class="appleLinksBlack">4400 Forbes Avenue, Pittsburgh, PA 15213-4080</span><br />
+        &#169;2021 Carnegie Museums of Pittsburgh, All rights reserved.
+        </p>
+                        
+      <p class="credit" align="center" style="margin-top: .5em;">
+		<a href="http://members.carnegiemuseums.org/site/CO" style="color:#757575 !important"><span style="color:#757575">Unsubscribe or change your preferences</span></a> 
+		&nbsp; | &nbsp; 
+		
+		<a href="https://carnegiemuseums.org/Carnegie2/2022/Stores/01/01-2022_stores-NONmembers.html" style="color:#757575 !important"><span style="color:#757575">
+            View&nbsp;in&nbsp;browser</span></a></p>	
+            
+    
+            
+          <p align="center" style="margin-top: .5em;">
+    <a href="https://www.radworkshere.org"><img class="lightimage" src="https://carnegiemuseums.org/Carnegie2/2021/Misc/graphics/RAD-bw-light2.png" width="125"  alt="RAD Works Here" style="display: block;" /><div class="darkimageWrapper" style="mso-hide: all; display: none" align="center"><img src="https://carnegiemuseums.org/Carnegie2/2021/Misc/graphics/RAD-bw-dark2.png" width="125" class="darkimage" alt="RAD Works Here" style="display: block;" /></div></a></p> 
+                 
+        
+              
+			
+					
+		</td>
+		</tr>
+	</table>
+</td>
+</tr>
+<!-- SINGLE COLUMN OF TEXT END -->   
+<!-- FOOTER END -->
+    
+
+
+	
+	
+	
+	
+<!-- END ABOVE THIS -->
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+        </div>
+    </center>    
+</body>
+</html>
